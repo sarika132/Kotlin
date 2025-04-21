@@ -14,6 +14,4 @@ fun main() {
     val roll = 15
     println("Roll number: $roll")
 
-    // The line below will cause a compile error
-    // roll = 10 // ❌ Uncommenting this will give: "Val cannot be reassigned"
 }

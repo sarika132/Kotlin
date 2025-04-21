@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_log">logActivity</string>
+    <string name="title_activity_class">classActivity</string>
+    <string name="title_activity_main2">MainActivity2</string>
 </resources>
