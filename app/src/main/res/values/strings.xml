@@ -4,4 +4,6 @@
     <string name="title_activity_log">logActivity</string>
     <string name="title_activity_class">classActivity</string>
     <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_login_activity.kt">LoginActivity.kt</string>
+    <string name="title_activity_classwork">ClassworkActivity</string>
 </resources>
