@@ -22,6 +22,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.KeyboardArrowRight
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material3.Card
+import androidx.compose.material3.CardColors
 import androidx.compose.material3.Icon
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -104,7 +105,7 @@ fun CardScreen(innerPadding:PaddingValues){
                 .padding(start = 17.dp, top = 40.dp, end = 2.dp, bottom = 2.dp),
         ) {
             //First Card
-            Box(
+            Card(
                 modifier = Modifier
                     .clip(RoundedCornerShape(15.dp))
                     .background(color = Color.White)
@@ -136,7 +137,7 @@ fun CardScreen(innerPadding:PaddingValues){
             Spacer(modifier = Modifier.width(35.dp))
 
                 // Second Card
-            Box(
+            Card(
                 modifier = Modifier
                     .clip(RoundedCornerShape(15.dp))
                     .background(color = Color.White)
@@ -172,7 +173,7 @@ fun CardScreen(innerPadding:PaddingValues){
                 .padding(start = 17.dp, top = 25.dp, end = 2.dp, bottom = 2.dp),
         ) {
             //Third Card
-            Box(
+            Card(
                 modifier = Modifier
                     .clip(RoundedCornerShape(15.dp))
                     .background(color = Color.White)
@@ -204,7 +205,7 @@ fun CardScreen(innerPadding:PaddingValues){
             Spacer(modifier = Modifier.width(35.dp))
 
             // Forth Card
-            Box(
+            Card(
                 modifier = Modifier
                     .clip(RoundedCornerShape(15.dp))
                     .background(color = Color.White)
@@ -240,7 +241,7 @@ fun CardScreen(innerPadding:PaddingValues){
                 .padding(start = 17.dp, top = 25.dp, end = 2.dp, bottom = 2.dp),
         ) {
             //Fifth Card
-            Box(
+            Card(
                 modifier = Modifier
                     .clip(RoundedCornerShape(15.dp))
                     .background(color = Color.White)
@@ -272,7 +273,7 @@ fun CardScreen(innerPadding:PaddingValues){
             Spacer(modifier = Modifier.width(35.dp))
 
             // Sixth Card
-            Box(
+            Card(
                 modifier = Modifier
                     .clip(RoundedCornerShape(15.dp))
                     .background(color = Color.White)
