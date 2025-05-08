@@ -1,5 +1,15 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">MyProject</string>
     <string name="title_activity_login">LoginActivity</string>
     <string name="title_activity_user_registration">UserRegistration</string>
+=======
+    <string name="app_name">My Application</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_log">logActivity</string>
+    <string name="title_activity_class">classActivity</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_login_activity.kt">LoginActivity.kt</string>
+    <string name="title_activity_classwork">ClassworkActivity</string>
+>>>>>>> b6e04bfb2cd1dc046324630c60f2ca345b7bd057
 </resources>
